@@ -24,5 +24,7 @@ if (etaPasseggero < 18) {
     console.log(prezzoViaggio)
 }
 
-prezzoViaggio.toFixed(2);
+prezzoViaggio = prezzoViaggio.toFixed(2)
+console.log(prezzoViaggio)
 
+document.getElementById('prezzo-biglietto').innerHTML = prezzoViaggio

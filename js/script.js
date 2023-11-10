@@ -24,3 +24,5 @@ if (etaPasseggero < 18) {
     console.log(prezzoViaggio)
 }
 
+prezzoViaggio.toFixed(2);
+
